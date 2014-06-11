@@ -11,12 +11,14 @@ package Empresa;
  * @author karloz
  */
 public class Empleados {
-   String  Cedula; 
+   String Cedula; 
    String Nombre;
    String Apellido;
    String Teléfono;
    String Dirección;
    String Email;
+   String Cargo;
+   String EsperienciaLaboral;
 
     public String getCedula() {
         return Cedula;
@@ -64,5 +66,21 @@ public class Empleados {
 
     public void setEmail(String Email) {
         this.Email = Email;
+    }
+
+    public String getCargo() {
+        return Cargo;
+    }
+
+    public void setCargo(String Cargo) {
+        this.Cargo = Cargo;
+    }
+
+    public String getEsperienciaLaboral() {
+        return EsperienciaLaboral;
+    }
+
+    public void setEsperienciaLaboral(String EsperienciaLaboral) {
+        this.EsperienciaLaboral = EsperienciaLaboral;
     }
 }
