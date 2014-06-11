@@ -17,6 +17,7 @@ public class DatosPersonales {
     String Teléfono;
     String Dirección;
     String Email;
+    String Barrio;
     
 
     public String getCedula() {
