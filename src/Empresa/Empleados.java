@@ -19,6 +19,7 @@ public class Empleados {
    String Email;
    String Cargo;
    String EsperienciaLaboral;
+   String Barrio;
 
     public String getCedula() {
         return Cedula;
