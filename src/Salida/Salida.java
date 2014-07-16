@@ -12,40 +12,61 @@ package Salida;
  */
 import Empresa.Empleados;
 public class Salida {
-    String direccionDestino;
-    String cedDestinatario;
-    Empleados Conductor;
-    String Destinatario;
+    String Municipio;
+    String Barrio;
+    String Dirreccion;
+    String Conductor;
+    Integer CedulaDestinatario;
+    String NombreDestinatario;
 
-    public String getDireccionDestino() {
-        return direccionDestino;
+    public String getMunicipio() {
+        return Municipio;
     }
 
-    public void setDireccionDestino(String direccionDestino) {
-        this.direccionDestino = direccionDestino;
+    public void setMunicipio(String Municipio) {
+        this.Municipio = Municipio;
     }
 
-    public String getCedDestinatario() {
-        return cedDestinatario;
+    public String getBarrio() {
+        return Barrio;
     }
 
-    public void setCedDestinatario(String cedDestinatario) {
-        this.cedDestinatario = cedDestinatario;
+    public void setBarrio(String Barrio) {
+        this.Barrio = Barrio;
     }
 
-    public Empleados getConductor() {
+    public String getDirreccion() {
+        return Dirreccion;
+    }
+
+    public void setDirreccion(String Dirreccion) {
+        this.Dirreccion = Dirreccion;
+    }
+
+    public String getConductor() {
         return Conductor;
     }
 
-    public void setConductor(Empleados Conductor) {
+    public void setConductor(String Conductor) {
         this.Conductor = Conductor;
     }
 
-    public String getDestinatario() {
-        return Destinatario;
+    public Integer getCedulaDestinatario() {
+        return CedulaDestinatario;
     }
 
-    public void setDestinatario(String Destinatario) {
-        this.Destinatario = Destinatario;
+    public void setCedulaDestinatario(Integer CedulaDestinatario) {
+        this.CedulaDestinatario = CedulaDestinatario;
     }
+
+    public String getNombreDestinatario() {
+        return NombreDestinatario;
+    }
+
+    public void setNombreDestinatario(String NombreDestinatario) {
+        this.NombreDestinatario = NombreDestinatario;
+    }
+     
+   
+
 }

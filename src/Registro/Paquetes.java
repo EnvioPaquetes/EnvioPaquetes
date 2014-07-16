@@ -17,12 +17,6 @@ public class Paquetes {
     String PesoPaquetes;
     String PrecioEnvio;
     String CodigoPaquete;
-    String Municipio;
-    String Barrio;
-    String Dirreccion;
-    String Conductor;
-    Integer CedulaDestinatario;
-    String NombreDestinatario;
 
     public String getCedulaRemitente() {
         return CedulaRemitente;
@@ -71,53 +65,4 @@ public class Paquetes {
     public void setCodigoPaquete(String CodigoPaquete) {
         this.CodigoPaquete = CodigoPaquete;
     }
-
-    public String getMunicipio() {
-        return Municipio;
-    }
-
-    public void setMunicipio(String Municipio) {
-        this.Municipio = Municipio;
-    }
-
-    public String getBarrio() {
-        return Barrio;
-    }
-
-    public void setBarrio(String Barrio) {
-        this.Barrio = Barrio;
-    }
-
-    public String getDirreccion() {
-        return Dirreccion;
-    }
-
-    public void setDirreccion(String Dirreccion) {
-        this.Dirreccion = Dirreccion;
-    }
-
-    public String getConductor() {
-        return Conductor;
-    }
-
-    public void setConductor(String Conductor) {
-        this.Conductor = Conductor;
-    }
-
-    public Integer getCedulaDestinatario() {
-        return CedulaDestinatario;
-    }
-
-    public void setCedulaDestinatario(Integer CedulaDestinatario) {
-        this.CedulaDestinatario = CedulaDestinatario;
-    }
-
-    public String getNombreDestinatario() {
-        return NombreDestinatario;
-    }
-
-    public void setNombreDestinatario(String NombreDestinatario) {
-        this.NombreDestinatario = NombreDestinatario;
-    }
-
 }
